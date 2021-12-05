@@ -17,7 +17,6 @@
 
 #banner h1 {
  margin: 0;
-
 }
 
 #bannerLogo {
@@ -134,16 +133,21 @@
 .createbutton img {
  font-size: 22px;
 }
-
+/*
 .createbutton .shim,
 .createbutton .shimHover {
- background: transparent url(../img/main/skins/default/createshimda4f.png?120) no-repeat left -99px;
+  opacity: .8;
+
+  /*
+  
+ background: transparent url(../img/main/skins/default/) no-repeat left -99px;
  width: 226px;
  height: 24px;
  cursor: pointer;
  position: absolute;
  left: 22px;
  top: 102px;
+ 
 }
 
 .createbutton:hover > .shim {
@@ -153,7 +157,7 @@
 .createbutton .shimHover {
  background-position: left top;
 }
-
+*/
 #features {
  margin: 5px 0 0;
 }
