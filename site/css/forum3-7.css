@@ -337,6 +337,10 @@ TABLE {
 #contentmsg .mod .leftpanel .avatar{
  border: 1px solid #064c0e;
 }
+/*Blog Mod */
+#contentmsg .bmod .leftpanel .avatar{
+  border: 1px solid #0b0330;
+ }
 
 #contentmsg .jmod .leftpanel a {
  color: white;
@@ -461,6 +465,7 @@ TABLE {
  margin:10px auto 5px;
  text-align:center;
 }
+/* Forum Moderator */
 
 #contentmsg .mod .leftpanel {
  border-top: 4px solid #064c0e;
@@ -493,13 +498,48 @@ TABLE {
 .mod .msgcommands {
  border-top: 2px solid #064C0E;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Blogger Mod */
+#contentmsg .bmod .leftpanel {
+  border-top: 4px solid #0c1e85;
+  border-left: 4px solid #0c1e85;
+  border-bottom: 4px solid #0c1e85;
+  border-right: 3px solid #0c1e85;
+  background: #0b0330;
+  vertical-align:top;
+  width:20%;
+  padding: 0px;
+ }
+ #contentmsg .bmod .rightpanel {
+  border-top: 4px solid #0c1e85;
+  border-bottom: 4px solid #0c1e85;
+  border-right: 4px solid #0c1e85;
+  background: #0b0330;
+  padding-left: 10px;
+  vertical-align: top;
+ }
+ .bmod .uname, .bmod .modtype {
+  background: #0b0330;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+ }
+ .bmod .msgcommands {
+  border-top: 2px solid #0c1e85;
+ }
+ .bmod .msgcontents {
+   order:1px solid #0b0330;
+  
+ }
 
+ /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 #contentmsg .hid .leftpanel {
  border-top: 4px solid #270909;
  border-left: 4px solid #270909;
  border-bottom: 4px solid #270909;
  border-right: 3px solid #270909;
- background: #301212;
+ background: #13064e;
  vertical-align:top;
  width:20%;
  padding: 0px;
