@@ -15,9 +15,9 @@ en,
 English
 ">
 <meta name="keywords" content="RSPS, Open Source, 2009scape, Osrs, Oldschool Runescape, Runescape, zezima">
-<meta name="description" content=" Demeo version">
-<meta name="title" content="Demeo">
-<title>2009scape - Demeo</title>
+<meta name="description" content="A page for our singleplayer version of the game.">
+<meta name="title" content="2009scape - Singleplayer">
+<title>2009scape - Singleplayer</title>
 <style type="text/css">/*\*/@import url(../css/global-34.css);/**/</style>
 <script type="text/javascript" src="../../www.jagex.com/js/jquery/jquery_1_4_2.js"></script>
 <script type="text/javascript">
@@ -117,7 +117,7 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 
 <div class="navigation">
 <div class="location">
-<b>Location: </b> <a href="../../index.html">Home</a> &gt; Demeo
+<b>Location: </b> <a href="../../index.html">Home</a> &gt; Singleplayer
 </div>
 </div>
 </div></div>
@@ -127,7 +127,7 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 <div class="left">
 <div class="right">
 <h1 class="plaque_medium">
-Demeo
+Singleplayer
 </h1>
 </div>
 </div>
@@ -149,12 +149,42 @@ Demeo
 <br>
 
 <p> 
-    <video style="margin-left: 15%;" width="520" height="340" controls>
-        <source src="../2009scape-resources/img/community/demeo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-      </video> 
+    <br>
+    <br>
 
+    <b> For you new contributors lets get you up and running with how to set up your own personal server for 2009scape! </b>
+    
+    <br>
+    <br>
+    I just want to start off that I'm only moving this Readme to my personal website in order for organization purposes. Do not ask 
+    for help setting up your personal server because that's what this readme was for to begin with. It's a shortened version of the one 
+    on the official Gitlab repo. I am not a Windows Support person so I can ensure this will work on Linux and that's about it. If it works on 
+    Windows fantastic but this the official Readme has support for all Operating Systems. 
 
+    <br>
+    <br>
+
+    This project has updated to Java 11 so you will need java 11. <br><br>
+    For Debian based projects: sudo apt-get install openjdk-11-jre* <br>
+    For Arch based projects: sudo pacman -S jdk11-openjdk 
+    <br>
+    <b> Frequently Asked Questions </b> 
+    <br>
+    <hr style=" color: #ded4ba; background-color: #ded4ba; height: 1px; border: none; ">
+    <br>
+    <img src="../2009scape-resources/img/icons/misc-faq.png" style="margin: 5px 25px 0px 0px;" align="left">
+    <h3 style="color:#675F39; font-size: 12px;"> What ports do I need to open up to be able to play with friends? </h3>
+    <p> You just need to open 43594, 43595, and 5555. Keep in mind that only the server needs to have the open ports. Package the client and config file to send 
+        to your friends and you will be all set having your frineds connect.
+    </p>
+    <br>
+    <hr style=" color: #ded4ba; background-color: #ded4ba; height: 1px; border: none; ">
+    <img src="../2009scape-resources/img/icons/misc-faq.png" style="margin: 5px 25px 0px 0px;" align="left">
+    <h3 style="color:#675F39; font-size: 12px;"> How do I make myself an admin? </h3>
+    <p> Just go to your phpmyadmin, go to your player file and set rights to 2.
+    </p>
+    <br>
+    <br>
 
 </p>
 
@@ -193,6 +223,8 @@ Demeo
   
 </div>
 </div>
+
+
 
 </body>
 
