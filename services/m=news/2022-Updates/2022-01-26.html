@@ -14,9 +14,9 @@ en,
 English
 ">
 <meta name="keywords" content="RSPS, Open Source, 2009scape, Rs2, Original Runescape, Runescape, zezima">
-<meta name="description" content="A New Year! 2022 ">
-<meta name="title" content="2009scape - A New Year! 2022">
-<title>2009scape - A New Year! 2022</title>
+<meta name="description" content="Fixing the bugs and training mages ">
+<meta name="title" content="2009scape - Fixing the bugs and training mages">
+<title>2009scape - Fixing the bugs and training mages</title>
 <style type="text/css">/*\*/@import url(./../../../site/css/global-34.css);/**/</style>
 <script type="text/javascript" src="../../../www.jagex.com/js/jquery/jquery_1_4_2.js"></script>
 <script type="text/javascript">
@@ -27,7 +27,7 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 })
 </script>
 
-<link href="../../../site/2009scape-resources/css/images.css" rel="stylesheet" type="text/css" media="all"/>
+
 <link href="./../../../site/css/forum3-7.css" rel="stylesheet" type="text/css" media="all"/>
 
 
@@ -115,8 +115,8 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 <div class="navigation">
 <div class="location">
 <b>Location: </b> <a href="./../../../index.html">Home</a> &gt;
-<a href="./archives.html"><span>Legacy</span></a>
-&gt; <span>A New Year! 2022
+<a href="./"><span>Legacy</span></a>
+&gt; <span>Fixing the bugs and training mages
 </span>
 </div>
 </div>
@@ -127,7 +127,7 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 <div class="left">
 <div class="right">
 <h1 class="plaque">
-01-January-2022
+26-Janury-2022
 </div>
 </div>
 </div>
@@ -137,7 +137,7 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 </div>
 <div id="contrast_panel">
 <div id="infopane">
-<div class="title thrd">A New Year! 2022
+<div class="title thrd">Fixing the bugs and training mages
 
 </div>
 </div>
@@ -147,9 +147,9 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 <tr>
 <td class="commands center">
 <ul class="flat first-child">
-  <li><a href="./archives.html"><img src="../../../site/img/forum/cmdicons/backtoforum.gif" alt=""/> Up to Legacy Update List</a></li>
+  <li><a href="./2022-updates.html"><img src="../../../site/img/forum/cmdicons/backtoforum.gif" alt=""/> Up to Legacy Update List</a></li>
   <li>
-  <a href="./2022-02-04.html"><img src="../../../site/img/forum/cmdicons/refresh.gif" alt=""/> Refresh</a>
+  <a href="./2022-01-26.html"><img src="../../../site/img/forum/cmdicons/refresh.gif" alt=""/> Refresh</a>
   </li>
 </ul>
 </td>
@@ -161,55 +161,66 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 </div>
 <div id="contentmsg" class="">
 <a class="msgplace" name="0"></a>
-<table class="message bmod" CELLSPACING="0">
+<table class="message jmod" CELLSPACING="0">
 <tr>
-<td class="leftpanel bmod">
+<td class="leftpanel J-Mod">
 <div class="msgcreator uname" >
 
-  <img src="../../../site/2009scape-resources/img/news/badges/VIP_badge.png"  style="margin-left: -30px;">&nbsp;
-    Dylan
+  <img src="../../../site/img/forum/crown_gold.gif"  style="margin-left: -30px;">&nbsp;
+    Summer
     </div>
-    <img src="./../../m=avatar-rs/avatar76b5.gif"  class="avatar" alt=""/>
+    <img src="./../../m=avatar-rs/avatar3efb.gif"  class="avatar" alt=""/>
     
-    <div class="modtype">Blog Poster</div>
+    <div class="modtype">Website Developer</div>
 
 <div class="msgcommands">
-    <img src="../../../site/2009scape-resources/img/news/badges/boulder_badge.png" width="30" height="30" style="margin-left: -20px;">
-    <img src="../../../site/2009scape-resources/img/news/badges/cascade_badge.png" width="30" height="30">
-    <img src="../../../site/2009scape-resources/img/news/badges/thunder_badge.png" width="30" height="30">
+    <img src="../../../site/2009scape-resources/img/game_guide/forumbadge.png" width="30" height="30" style="margin-left: -90px;">
 <br/>
 </div>
 </td>
 <td class="rightpanel">
 <div class="msgtime">
-04-February-2022 22:44
+26-Janury-2022 00:08
 <br/>
 </div>
 <div class="msgcontents">
 <!-- Post goes right in here -->
 
-<p>
-   Hey, my name is Dylan. I am making my first "blog" post to make people aware of a really cool open source project 
-   that isn't getting the attention that it should. Over the last little while the admin of OpenRSC has been working on 
-   reverse engineering Zelda stealing no assets from the Original 64 game. As the completion of OOT came, more and more Zeldas 
-   were on their way. 
+<p> A Back to back update to bring even more fixes to 2009scape. More focus on creating a structure within the development with some 
+    few changes.
 
-   <br>
-   <br>
+  <br>
+  <br>
 
-   I will link the different projects and their discord just so you all have the opportunity to join and work with your 
-   own reverse engineered version of Zelda. Please give a huge shout out to _ for making this happen.
+  <h3>Bot Fixes</h3>
+  <ul>
+    <li>Temporarily disabled green dragon bots pending economical changes.</li>
+  </ul>
+  <h3>Mage Training Arena</h3>
+  <ul>
+      <li>It is now possible to talk to the telekinetic guardian through the maze wall.</li>
+      <li>Asking for the price of an MTA reward no longer attempts to purchase said reward.</li>
+      <li>Graveyard bones now give the correct amount of bananas/peaches.</li>
+      <li>The number of telekinetic mazes solved now persist when exiting.</li>
+  </ul>
+  <h3>Some Bug Fixes</h3>
+  <ul>
+    <li>Re-import charm drop rates (some NPCs may have incorrectly had 100% charm drop rates).</li>
+    <li>Unicorn horns, snapegrass, limpwurt roots, and crushed nests from GWD minions now all be noted like wines of zamorak are.</li>
+    <li>Added server-wide announcements for godsword shards, d plate shards, steam battlestaff, and seercull.</li>
+    
+    </ul>
+    <h3>The little things</h3>
+    <ul>
+        <li>Changed the Dragon claws drop rate to 1/256.</li>
+        <li>Changed the Dragon plate pieces drop rate to 1/1024.</li>
+        <li>Fixed abnormally frequent GS shard 3 drops from Balfrug Kreeath.</li>
+        <li>Fixed ruby bolt (e) sound effects.</li>
+    </ul>
 
-   <br>
-   <br>
-
-   <b>OOT</b>
-   A video on someone modding the OOT 64 game that was reversed engineered.
-   <br>
-    <video controls src="../../../site/2009scape-resources/img/community/zelda/oot.mp4" height="400" width="400"></video>
-    <br>
-    <br>
-    Here is a link to the github, It is a link to my fork just incase the og tears theirs down.
+</p>
+    
+</div>
 </td>
 </tr></table>
 </div>
@@ -218,9 +229,9 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
 <tr>
 <td class="commands center">
 <ul class="flat first-child">
-<li><a href="./archives.html"><img src="../../../site/img/forum/cmdicons/backtoforum.gif" alt=""/> Up to Legacy Update List</a></li>
+<li><a href="./2022-updates.html"><img src="../../../site/img/forum/cmdicons/backtoforum.gif" alt=""/> Up to Legacy Update List</a></li>
 <li>
-<a href="./2022-02-04.html"><img src="../../../site/img/forum/cmdicons/refresh.gif" alt=""/> Refresh</a>
+<a href="./2022-01-26.html"><img src="../../../site/img/forum/cmdicons/refresh.gif" alt=""/> Refresh</a>
 </li>
 </ul>
 </td>
@@ -239,7 +250,7 @@ $("#play, #playExisting, #playBannerNoad").each(function(){ this.href += "?j=1";
     <div class="location">
     <b>Location: </b> <a href="./../../../index.html">Home</a> &gt;
     <a href="./archives.html"><span></span></a>
-    &gt; <span>Open Source Zelda?
+    &gt; <span>Fixing the bugs and training mages
     </span>
     </div>
     </div>

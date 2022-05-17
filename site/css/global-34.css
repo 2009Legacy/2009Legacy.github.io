@@ -35,66 +35,75 @@ input, textarea, select {
 
 */
 
+/* Backgrounds */
+
 body {
- padding: 0;
- margin: 0;
- text-align: center;
- font-family: Arial, Helvetica, FreeSans, sans-serif;
-}
-/* Regular */
-.bodyBackground {
- background: #000 url(./../img/2009img/main/skins/default/bg.jpg?12) repeat-y scroll center 355px;
-}
-
-
-.bodyBackgroundHead {
- background: url(./../img/2009img/main/skins/default/bg.jpg?12) no-repeat scroll center top;
- padding-top: 0.1px; 
-}
-
-
-.bodyBackgroundHeadAdvert {
- background: url(./../img/2009img/main/skins/default/bg.jpg) no-repeat scroll center top;
- padding-top: 0.1px; 
-} 
-/*Christmas 
-.bodyBackground {
-  background: #000 url(./../img/2009img/main/skins/default/bg_christmas.png?12) repeat-y scroll center 355px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, FreeSans, sans-serif;
  }
-
- .bodyBackgroundHead {
-  background: url(./../img/2009img/main/skins/default/bg_christmas.png?12) no-repeat scroll center top;
-  padding-top: 0.1px;
-
+ 
+ .homeBackground{
+   background: #000 url(../img/website_layout/backgrounds/Jan-2009-bg.jpg?) repeat-y scroll center 355px;
  }
-  .bodyBackgroundHeadAdvert {
-    background: url(./../img/2009img/main/skins/default/bg_christmas.png?12) no-repeat scroll center top;
-    padding-top: 0.1px; 
-
+ 
+ .bodyBackground {
+   background: #000 url(../2009scape-resources/img/website_layout/backgrounds/Jan-2009-bg.jpg?12) repeat-y scroll center 355px;
   }
-*/
-/* Halloween 
-.bodyBackground {
-  background: #000 url(./../img/2009img/main/skins/default/bg_halloween.png?12) repeat-y scroll center 355px;
+ /* As of May 11th 2022, This is no longer the correct background but will save it for the giggles. 
+ .bodyBackground {
+  background: #000 url(../img/website_layout/backgrounds/Jan-2009-bg.jpg?12) repeat-y scroll center 355px;
  }
-
+ 
+ */
  .bodyBackgroundHead {
-  background: url(./../img/2009img/main/skins/default/bg_halloween.png?12) no-repeat scroll center top;
-  padding-top: 0.1px;
-
+  background: url(../img/website_layout/backgrounds/Jan-2009-bg.jpg?12) no-repeat scroll center top;
+  padding-top: 0.1px; 
  }
-  .bodyBackgroundHeadAdvert {
-    background: url(./../img/2009img/main/skins/default/bg_halloween.png?12) no-repeat scroll center top;
-    padding-top: 0.1px; 
-
+ 
+ 
+ .bodyBackgroundHeadAdvert {
+  background: url(../img/website_layout/backgrounds/Jan-2009-bg.jpg?12) no-repeat scroll center top;
+  padding-top: 0.1px; 
+ } 
+ /*Christmas 
+ .bodyBackground {
+   background: #000 url(./../img/2009img/main/skins/default/bg_christmas.png?12) repeat-y scroll center 355px;
   }
-*/
-
+ 
+  .bodyBackgroundHead {
+   background: url(./../img/2009img/main/skins/default/bg_christmas.png?12) no-repeat scroll center top;
+   padding-top: 0.1px;
+ 
+  }
+   .bodyBackgroundHeadAdvert {
+     background: url(./../img/2009img/main/skins/default/bg_christmas.png?12) no-repeat scroll center top;
+     padding-top: 0.1px; 
+ 
+   }
+ */
+ /* Halloween 
+ .bodyBackground {
+   background: #000 url(./../img/2009img/main/skins/default/bg_halloween.png?12) repeat-y scroll center 355px;
+  }
+ 
+  .bodyBackgroundHead {
+   background: url(./../img/2009img/main/skins/default/bg_halloween.png?12) no-repeat scroll center top;
+   padding-top: 0.1px;
+ 
+  }
+   .bodyBackgroundHeadAdvert {
+     background: url(./../img/2009img/main/skins/default/bg_halloween.png?12) no-repeat scroll center top;
+     padding-top: 0.1px; 
+ 
+   }
+ */
 
 #scroll {
  height: 1%;
  
- background: transparent url(../img/main/layout/bg_scrollc4ca.jpg?1) repeat-y center 83px;
+ background: transparent url(../img/main/layout/bg_scrollc4ca.jpg?1) repeat-y center 70px;
 }
 
 #head {
