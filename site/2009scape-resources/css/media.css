@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+}
+body{
+    background: url(../img/website_layout/backgrounds/Jan-2009-bg.jpg?) repeat-y scroll center 355px;;
+    height: 1000px
+
+    
+}
+.main-content {
+    text-align: center;
+}
